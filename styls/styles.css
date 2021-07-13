@@ -1,0 +1,43 @@
+ body {
+     background-color: #ddd;
+ }
+ 
+ .top_player {
+     background-color: #fff;
+     padding-left: 10px;
+     padding-bottom: 10px;
+     margin-top: 10px;
+ }
+ 
+ main {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .container {
+     width: 870px;
+ }
+ 
+ .player_wrapper {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+ }
+ 
+ .top_player h3 {
+     color: blue;
+ }
+ 
+ .player_wrap {
+     display: flex;
+     grid-column-gap: 20px;
+ }
+ 
+ .player_wrap img {
+     width: 56px;
+     height: 56px;
+     padding-top: 20px;
+ }
+ 
+ .player_wrap p {
+     padding-top: 20px;
+ }
